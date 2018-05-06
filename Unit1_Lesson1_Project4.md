@@ -71,9 +71,16 @@ for web-search
 ```
 
 * You work at a social network, and the management is worried about churn (users stopping using the product). You are tasked with finding out if their churn is atypical. You have three years of data for users with an entry for every time they've logged in, including the timestamp and length of session.
-Discuss your answers to each of these questions with your mentor during your next session.
 
 ```
-answer
+Let's determine Active Users:
+
+After loading the data in a pandas df, let's group users based on login activity.
+
+To visualize this, let's load login data into a histogram.
+
+Let's create enough bins and overlay mean & std-dev.
+
+Once we know the mean login counts we can compare this to our top 25% & 50% users.
 ```
 
