@@ -14,11 +14,21 @@ A. Which product has the highest profit-margin ?
 B. Which product is trending in sales popularity ?
 C. Which product webpages have the highest pageviews ?
 
-A. Using a pandas dataframe and the .apply method() I can use the cost & price information for each sale to determine the profit for each sale.  I would add this as a new column to the dataframe.  Using this calculated feature and group-by-on-product-category, I can now create histogram chart with mean & standard deviation to give a picture of profit margin over our sales period.
+A. Using a pandas dataframe and the .apply method() I can use the 
+cost & price information for each sale to determine the profit for each sale.  
+I would add this as a new column to the dataframe.  Using this calculated 
+feature and group-by-on-product-category, I can now create histogram chart 
+with mean & standard deviation to give a picture of profit margin over our sales period.
 
-B.  Using group-by-product-category on my dataframe, I will chart/plot the sales figure trends for each category for each month in our sales period.  Using the line chart, we can see which times of the yaer are popular sales months for each respective product category.
+B.  Using group-by-product-category on my dataframe, I will chart/plot 
+the sales figure trends for each category for each month in our sales period.  
+Using the line chart, we can see which times of the yaer are popular sales 
+months for each respective product category.
 
-C.  For each page on our website I will chart pageviews for our end - users.  The highest visited pages will be easy to determine from the histogram.  Once we know our highest rated webpages, we will join this data against the products mentioned on each of those pages.
+C.  For each page on our website I will chart pageviews for our end - users.  
+The highest visited pages will be easy to determine from the histogram.  
+Once we know our highest rated webpages, we will join this data against 
+the products mentioned on each of those pages.
 
 Based on the time-of-year, sales-data, & webpage-views I can determine the highest value product to feature on our ad-campaign.
 
