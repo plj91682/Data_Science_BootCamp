@@ -39,7 +39,20 @@ I will determine the value or trend for 3 questions.
 * You work at a web design company that offers to build websites for clients. Signups have slowed, and you are tasked with finding out why. The onboarding funnel has three steps: email and password signup, plan choice, and payment. On a user level you have information on what steps they have completed as well as timestamps for all of those events for the past 3 years. You also have information on marketing spend on a weekly level.
 
 ```
-answer
+To determine why signups have slowed, I will determine which users who 
+have not completed the onboarding funnel.
+
+I will then created a new feature that calculates how many 
+hours (cycle-time) each user spent in each stage of the onboarding funnel.
+
+I can create 2 charts to help explain the slowing down of completed sign-ups.
+
+1.  I will determine which months have the highest number of onboarding events unfinished.
+2.  I will chart the marketing spend for each each.
+
+By overlaying marketing spend with long-cycle times for onboarding events, 
+I may be able to visually see if where there is a correlation between marketing
+spend and cycle time.
 ```
 
 * You work at a hotel website and currently the website ranks search results by price. For simplicity's sake, let's say it's a website for one city with 100 hotels. You are tasked with proposing a better ranking system. You have session information, price information for the hotels, and whether each hotel is currently available.
