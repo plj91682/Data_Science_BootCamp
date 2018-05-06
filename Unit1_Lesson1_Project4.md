@@ -58,7 +58,16 @@ spend and cycle time.
 * You work at a hotel website and currently the website ranks search results by price. For simplicity's sake, let's say it's a website for one city with 100 hotels. You are tasked with proposing a better ranking system. You have session information, price information for the hotels, and whether each hotel is currently available.
 
 ```
-answer
+Use Price and Occupancy to rank each hotel.
+
+Load booking data into a pandas dataframe.
+
+In the dataframe, Create a new measure called 'Popularity' that equates to the 
+occupancy-rate of bookings / availabile rooms as a percentage
+
+
+Perform a group-by against Price & Popularity and use it as the new ranking metric
+for web-search
 ```
 
 * You work at a social network, and the management is worried about churn (users stopping using the product). You are tasked with finding out if their churn is atypical. You have three years of data for users with an entry for every time they've logged in, including the timestamp and length of session.
