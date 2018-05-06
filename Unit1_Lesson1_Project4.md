@@ -30,7 +30,8 @@ The highest visited pages will be easy to determine from the histogram.
 Once we know our highest rated webpages, we will join this data against 
 the products mentioned on each of those pages.
 
-Based on the time-of-year, sales-data, & webpage-views I can determine the highest value product to feature on our ad-campaign.
+Based on the time-of-year, sales-data, & webpage-views I can determine the 
+highest value product to feature on our ad-campaign.
 
 ```
 
