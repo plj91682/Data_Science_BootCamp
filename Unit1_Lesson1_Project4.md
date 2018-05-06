@@ -8,7 +8,8 @@ Estimated Time: 1-2 hours
 * You work at an e-commerce company that sells three goods: widgets, doodads, and fizzbangs. The head of advertising asks you which they should feature in their new advertising campaign. You have data on individual visitors' sessions (activity on a website, pageviews, and purchases), as well as whether or not those users converted from an advertisement for that session. You also have the cost and price information for the goods.
 
 ```
-To recommend which product to feature in our advertisement I will determine the value or trend for 3 questions.
+To recommend which product to feature in our advertisement 
+I will determine the value or trend for 3 questions.
 
       A. Which product has the highest profit-margin ?
       B. Which product is trending in sales popularity ?
